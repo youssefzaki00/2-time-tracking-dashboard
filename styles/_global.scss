@@ -1,0 +1,52 @@
+:root {
+  --color-very-dark-blue: #0f1424;
+  --color-dark-blue: #1c1f4a;
+  --color-desaturated-blue: #5646e9;
+  --color-pale-blue: #bdc1ff;
+  --color-white: #fff;
+  --default-padding: 2rem;
+  --default-radius: 0.8rem;
+}
+
+/* CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  display: inline-block;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  border: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Rubik", sans-serif;
+  color: var(--color-white);
+}
+
+/* End CSS Reset */
